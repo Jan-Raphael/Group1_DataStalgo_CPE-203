@@ -1,0 +1,114 @@
+.ProfileContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.ProfileHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ProfileAvatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ProfileInfo {
+  flex: 1;
+}
+
+.ProfileInfo h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.ProfileInfo p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.Information{
+  gap: 10px;
+}
+
+.ProfilePosts {
+  margin-top: 20px;
+}
+
+.ProfilePosts h2 {
+  margin-bottom: 10px;
+}
+
+.Post {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.Post h3 {
+  margin: 0 0 10px;
+}
+
+.Post p {
+  margin: 0;
+  color: #333;
+}
+
+.ProfileActions {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ProfileActions p{
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.ProfileActions button:hover{
+  filter: brightness(90%);
+}
+
+.ProfileActionsSubscribeButton {
+  background: var(--Actionbutton);
+  color: #f6f6f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  filter: drop-shadow(0px 0 0px var(--Actionbutton));
+  transition: filter 0.3s ease; 
+}
+
+.ProfileActionsSubscribeButton:hover {
+  filter: drop-shadow(0px 0 20px var(--Actionbutton)) !important;
+}
+
+.ProfileActionsFollowButton {
+  background: var(--color-primary);
+  color: #f6f6f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  filter: drop-shadow(0px 0 0px var(--color-primary));
+  transition: filter 0.3s ease; 
+}
+  
+.ProfileActionsFollowButton:hover {
+  filter: drop-shadow(0px 0 20px var(--color-primary)) !important;
+}

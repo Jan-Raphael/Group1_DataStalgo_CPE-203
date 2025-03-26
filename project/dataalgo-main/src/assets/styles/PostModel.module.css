@@ -1,0 +1,231 @@
+.Posts {
+  padding: 20px;
+}
+
+.Post {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.PostHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PostTimestamp {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.PostTitle {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.PostTags {
+  margin-bottom: 0.125em;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.PostAuthor {
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 10px 0px;
+}
+.PostAuthorName {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+.PostAuthorName:hover{
+    color: rgb(65, 65, 65);
+}
+
+.PostAuthor span {
+  font-weight: bold;
+}
+.PostAuthorIcon{
+    margin: 0 0.25rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.PostActions {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0px 0px 10px 0px;
+}
+
+.PostActions p{
+  font-weight: bold;
+  padding: 5px 5px;
+}
+.PostActionsButton {
+  background: #e0e0e0;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px; 
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ButtonVote {
+  width: 2.25rem;
+  padding: 0 !important;
+  aspect-ratio: 1/1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ButtonVoted {
+  background-color: #ffdd57;
+  border: 1px solid #ffdd57;
+}
+
+.PostActionsButton img {
+  width: 1.25rem;
+}
+
+.PostActionsButton:hover {
+  filter: brightness(90%);
+}
+
+.PostSubscription {
+  border-left: 5px solid #ff9800;
+}
+.PostPremium {
+  border-left: 5px solid #2196f3; 
+}
+
+.PostPrice {
+  margin-top: 0.25rem;
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.ContentPost{
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.ContentTitle{
+  font-size: 0.8em;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.LockedContainer {
+  border: 2px dashed #ff0000; 
+  padding: 16px;
+  text-align: center;
+  background-color: #ffe6e6; 
+  margin: 16px 0;
+}
+
+.LockedContainer p {
+  margin: 8px 0;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.LockedContainer button {
+  background-color: #ff0000; 
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.LockedContainer button:hover {
+  background-color: #cc0000;
+}
+
+.PostDownloadButton {
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 13px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+.PostDownloadButton:hover {
+  background-color: #45a049; 
+}
+
+.PostDownloadButton i {
+  margin-right: 8px;
+}
+
+.ResetButton {
+  background-color: #a2a2a2; 
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 13px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+.ResetButton:hover {
+  filter: brightness(90%);
+}
+
+.ShowMoreButton {
+  background-color: #007BFF; 
+  border: none; 
+  color: white;
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 12px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+.ShowMoreButton0{
+
+}
+.ShowMoreButton:hover {
+  background-color: #0056b3;
+}
+
+.ShowMoreButton i {
+  margin-right: 8px; 
+}

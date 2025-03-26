@@ -1,0 +1,117 @@
+
+.LoginSignupFormContainer {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+.LoginSignupFormContainer h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.PostFormContainer {
+    background: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 600px;
+    text-align: center;
+}
+
+.FormGroup {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.FormGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.FormGroup input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.FormGroup textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.FormGroup input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.SubmitBtn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.SubmitBtn:hover {
+    background-color: #45a049;
+}
+
+.FormFooter {
+    margin-top: 15px;
+    color: #555;
+    font-size: 10px;
+}
+
+.FormFooter a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.FormFooter a:hover {
+    color: #3b823d;
+}
+
+.SubPriceButton {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.SubPriceButton button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.SubPriceButton button:hover {
+    background-color: #45a049;
+}
+
+.SubPriceButton button:active,
+.SubPriceButton button:focus {
+    filter: brightness(50%);
+    transform: scale(0.98);
+}

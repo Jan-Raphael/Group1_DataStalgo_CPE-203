@@ -1,0 +1,214 @@
+.SettingsPage {
+  display: flex;
+  height: 100vh;
+  background-color: #f9f9f9;
+  color: rgb(65, 65, 65);
+  padding-top: 60px;
+}
+
+/*Side Bar*/
+.Sidebar {
+  width: 16%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 12%;
+  padding: 20px;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.SliderTitleHolder{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.SliderTitleHolder h3 {
+  color: #8c8d8d;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.Sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Sidebar ul li {
+  padding: 10px 0;
+  color: #8b8d90;
+  cursor: pointer;
+}
+
+.Sidebar ul li:hover {
+  color: rgb(65, 65, 65);
+}
+
+.Selected {
+  font-weight: bold;
+  color: rgb(65, 65, 65);
+}
+
+/* Scroll Wheel Of Sidebar */
+.Sidebar::-webkit-scrollbar {
+  width: 1px;
+  height:10px
+}
+
+.Sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+.Sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+.Sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Content */
+.ContentHolder{
+  width: 60%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 1%;
+  padding: 20px;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.Avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ProfileHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ProfileActions {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5px;
+}
+.ProfileActions p{
+  font-weight: bold;
+  padding: 5px 5px;
+}
+
+.Vertical{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+.PurchasesContainer {
+  max-height: 57vh; 
+  overflow-y: auto;
+}
+
+.SubscriptionContainer {
+  max-height: 57vh; 
+  overflow-y: auto;
+}
+.Subscriber{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.SubscriberHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.SubscriberAvatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.SubscriberInfo {
+  flex: 1;
+}
+
+.SubscriberInfo h1 {
+  font-size: 1.5em;
+}
+
+.SubscriberInfo p {
+  color: #666;
+  font-size: 1em;
+}
+
+
+
+/* Settings Page */
+
+
+.Avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.ProfileInfo {
+  flex: 1;
+}
+
+
+/* Custom Alert */
+.Alert {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 30px;
+  z-index: 40;
+  transition: transform 0.8s ease;
+}
+
+.AlertHidden {
+  transform: translateY(100%);
+}
+
+.AlertVisible {
+  transform: translateY(0);
+}
