@@ -5,7 +5,7 @@ import App from "./App";
 // Important styles
 import "./assets/strings/color.css";
 import "./assets/strings/size.css";
-import "./assets/styles/Main.css";
+import "./assets/styles/main.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
